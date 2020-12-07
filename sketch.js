@@ -30,7 +30,7 @@ function setup() {
    dogImage.addImage(dog);
 
    database=firebase.database();
-   foodStock=database.ref('food');
+   foodStock=database.ref("food");
    foodStock.on("value",readStock);
 
 
